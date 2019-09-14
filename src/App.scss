@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    padding-bottom: 10vh;
+}
+
+.text {
+    max-width: 35%;
+    color: white;
+}
+
+.photo {
+    min-width: 30vw;
+
+    img {
+        border-radius: 678910px;
+    }
+}
+
+.greeting {
+    font-size: 2.25rem;
+    line-height: 1.125;
+    margin-bottom: 0.5rem;
+}
+
+.bg {
+    position: absolute;
+    opacity: .8;
+
+    /* The image used */
+    background-image: url("./img/kyndall-ramirez-m5Lx_VVCst0-unsplash.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -99;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
